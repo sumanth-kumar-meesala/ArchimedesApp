@@ -1,0 +1,40 @@
+{
+  "name": "archimedesapp",
+  "version": "1.0.0",
+  "main": "node app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.9",
+    "mongodb": "^2.1.6",
+    "morgan": "^1.9.1",
+    "nodemailer": "^4.6.8",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "stripe": "^6.23.0"
+  },
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archimedes-beta/ArchimedesApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/archimedes-beta/ArchimedesApp/issues"
+  },
+  "homepage": "https://github.com/archimedes-beta/ArchimedesApp#readme",
+  "description": ""
+}
